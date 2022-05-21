@@ -28,6 +28,7 @@ import services.JavaFuns;
 import services.RandomString;
 
 @Controller
+@RestController
 public class VotingController implements ErrorController {
 	@RequestMapping("/error")
     public String handleError() {
